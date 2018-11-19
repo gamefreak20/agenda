@@ -1,0 +1,66 @@
+@media (min-width: 576px) {
+  .col-sm {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 14% !important;
+    height: 10% !important;
+  }
+}
+
+.card2 {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  height: 150% !important;
+}
+
+.datumletter {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-right: 5px;
+}
+
+.datumvraag {
+  position: absolute;
+  bottom: 0;
+  left: 90%;
+  margin-right: 5px;
+}
+
+.row {
+  margin-top: 4.5% !important;
+}
+
+*, ::after, ::before {
+  box-sizing: none;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.card-body {
+  padding: 0.75rem !important;
+  padding-left: 1.25rem !important;
+}
+
+.a-normal {
+  text-decoration: none;
+  color: #000;
+}
+
+.a-normal:hover {
+  text-decoration: none;
+  color: #000;
+}
